@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Drive Watcher</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.6;
+         color: #1c2430; }
+  h1 { font-size: 1.6rem; }
+  code { background: #f2f4f7; padding: 0.1rem 0.35rem; border-radius: 4px; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: #5b6672; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Google Drive Watcher</h1>
+
+  <p><strong>Google Drive Watcher</strong> is a small, personal, single-user tool that
+  runs on its owner's own computer and monitors the owner's own Google Drive for
+  file changes.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Uses the Google Drive API with <strong>read-only</strong> access to check the
+        owner's own change feed (<code>changes.list</code>).</li>
+    <li>Writes a local log of detected changes (created, modified, renamed, moved,
+        deleted).</li>
+    <li>Optionally runs a local script when a change is detected.</li>
+  </ul>
+
+  <h2>How data is handled</h2>
+  <p>The tool is used only by its owner, on the owner's own computer, to work with
+  the owner's own Drive. Nothing is shared with or sent to third parties. See the
+  <a href="privacy.html">Privacy&nbsp;Policy</a> for details.</p>
+
+  <h2>Contact</h2>
+  <p>kevinbudiman@users.noreply.github.com</p>
+</main>
+<footer>Personal utility. Not affiliated with Google.</footer>
+</body>
+</html>
